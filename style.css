@@ -1,0 +1,54 @@
+@font-face {
+   font-family: 'Brownhill Script';
+   src: url('Brownhill Script.ttf');
+}
+
+body {
+   margin: 0;
+}
+
+.content {
+   background-color: #1a1a26;
+   background-image: url(background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+h1 {
+   font-family: 'Brownhill Script', cursive;
+   color: white;
+   font-size: 163px;
+   font-weight: normal;
+   margin-top: 0;
+   margin-bottom: 70px;
+}
+
+.icons {
+   display: inline-block;
+}
+
+i {
+   color: white;
+   cursor: pointer;
+}
+
+a {
+   margin-right: 20px;
+}
+
+a:last-child {
+   margin-right: 0;
+}
+
+@media only screen and (max-width: 680px) {
+   h1 {
+      font-size: 100px;
+      text-align: center;
+   }
+}
